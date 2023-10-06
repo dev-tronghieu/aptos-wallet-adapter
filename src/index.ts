@@ -20,7 +20,7 @@ interface WallessWindow extends Window {
 
 declare const window: WallessWindow; // CHANGE WallessWindow
 
-export const WallessWalletName = "Aptos" as WalletName<"Aptos">; // CHANGE AptosWalletName, CHANGE "Aptos"
+export const WallessWalletName = "Walless" as WalletName<"Walless">; // CHANGE AptosWalletName, CHANGE "Aptos"
 
 // CHANGE AptosWallet
 export class WallessWallet implements AdapterPlugin {
